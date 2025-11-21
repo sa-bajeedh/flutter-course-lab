@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:saeed_mahfouz_app/navigation_bar_screen.dart';
+import 'package:saeed_mahfouz_app/text_field_assignment_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
       
       ),
-      home: NavigationBarScreen()
+      home: TextFieldScreen()
     );
   }
 }

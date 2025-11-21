@@ -10,8 +10,10 @@ class HomePageScreen extends StatefulWidget {
 class _HomePageScreenState extends State<HomePageScreen> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Icon(Icons.home,color: Colors.black,size: 100,),
+    return Scaffold(
+      body: Center(
+        child: Icon(Icons.home,color: Colors.black,size: 100,),
+      ),
     );
   }
 }
