@@ -11,7 +11,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Icon(Icons.notification_add,color: Colors.black,size: 100,),
+      child: Icon(Icons.settings,color: Colors.black,size: 100,),
     );
   }
 }
