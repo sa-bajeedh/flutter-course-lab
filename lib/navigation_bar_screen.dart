@@ -40,6 +40,7 @@ class _NavigationBarScreenState extends State<NavigationBarScreen> {
     return Directionality( 
       textDirection: TextDirection.rtl,
       child: Scaffold(
+        
         appBar: AppBar(
           title: Text(_getTitle(_navigationBarIndex),style: TextStyle(color: Colors.white),),
           toolbarHeight: 80,
